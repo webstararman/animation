@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.inner-container{
+    width: 1280px;   
+    max-width: 100%; 
+    margin: auto;
+}
+.banner {
+    background-image: url(https://webarman.com/animation/wp-content/uploads/2024/03/Hero-Section-BG.webp);
+    padding: 350px 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.top-border1 {
+    border: 1px solid rgb(255, 255, 255);
+    height: 1280px;
+    width: 1280px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 730px;
+    bottom: 0;
+    margin: auto;
+}
+.box1 img:nth-child(1){
+    transform: translate(555px, -77px);
+    animation: mymove1 10s linear infinite alternate;
+}
+.box1 img:nth-child(2) {
+    transform: translate(-225px, 415px);
+    animation: mymove12 13s linear infinite alternate;
+}
+.box1 img:nth-child(3) {
+    transform: translate(863px, 415px);
+    animation: mymove13 15s linear infinite alternate;
+}
+/* Box 1 End */
+
+.top-border2 {
+    border: 1px solid rgb(255, 255, 255);
+    height: 1080px;
+    width: 1080px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 730px;
+    bottom: 0;
+    margin: auto;
+}
+.box2 img:nth-child(1) {
+    transform: translate(57px, 91px);
+    animation: mymove21 15s linear infinite alternate;
+}
+.box2 img:nth-child(2) {
+    transform: translate(660px, 50px);
+    animation: mymove22 15s linear infinite alternate;
+}
+/*  Box 2 End */
+.top-border3 {
+    border: 1px solid rgb(255, 255, 255);
+    height: 1080px;
+    width: 897px;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 820px;
+    bottom: 0;
+    margin: auto;
+}
+.box3 img:nth-child(1) {
+    transform: translate(375px, -77px);
+    animation: mymove31 9s linear infinite alternate;
+}
+.box3 img:nth-child(2) {
+    transform: translate(-20px, -10px);
+    animation: mymove32 15s linear infinite alternate;
+}
+.box3 img:nth-child(3) {
+    transform: translate(-345px, 180px);
+    animation: mymove33 15s linear infinite alternate;
+}
+.box3 img:nth-child(4) {
+    transform: translate(235px, 110px);
+    animation: mymove34 15s linear infinite alternate;
+}
+/* Box 3 End */
+
+/* Your existing CSS content here */
+
+@keyframes mymove1 {
+    0% {}
+    25% {
+        transform: translate(885px, -6px);
+    }
+    50% {
+        transform: translate(1045px, 135px);
+    }
+    75% {
+        transform: translate(1122px, 255px);
+    }
+    100% {
+        transform: translate(1195px, 468px);
+    }
+}
+
+@keyframes mymove12 {
+    0% {}
+    25% {
+        transform: translate(-147px, 215px);
+    }
+    50% {
+        transform: translate(100px, -20px);
+    }
+    60%{
+        transform: translate(400px, -80px);
+    }
+    75% {
+        transform: translate(662px, -25px);
+    }
+    85%{
+        transform: translate(937px, 201px);
+    }
+    100% {
+        transform: translate(1030px, 460px);
+    }
+}
+@keyframes mymove13 {
+    0% {}
+    25% {
+        transform: translate(805px, 235px);
+    }
+    50% {
+        transform: translate(650px, 55px);
+    }
+    60%{
+        transform: translate(400px, -71px);
+    }
+    75% {
+        transform: translate(0px, -40px);
+    }
+    85%{
+        transform: translate(-215px, 92px);
+    }
+    100% {
+        transform: translate(-385px, 405px);
+    }
+}
+/* Animation 2 Start */
+@keyframes mymove21 {
+    0% {}
+    25% {
+        transform: translate(359px, -75px);
+    }
+    50% {
+        transform: translate(638px, -57px);
+    }
+    75% {
+        transform: translate(879px, 108px);
+    }
+    100% {
+        transform: translate(985px, 340px);
+    }
+}
+@keyframes mymove22 {
+    0% {}
+    25% {
+        transform: translate(375px, -75px);
+    }
+    50% {
+        transform: translate(55px, -30px);
+    }
+    75% {
+        transform: translate(-125px, 120px);
+    }
+    100% {
+        transform: translate(-225px, 335px);
+    }
+}
+/* Animation 2 End */
+
+@keyframes mymove31 {
+    0% {}
+    25% {}
+    50% {
+        transform: translate(614px, -5px);
+    }
+    75%{}
+    100% {
+        transform: translate(785px, 255px);
+    }
+}
+@keyframes mymove32 {
+    0% {}
+    25% {
+        transform: translate(245px, -85px);
+    }
+    50% {
+        transform: translate(457px, -16px);
+    }
+    75%{
+        transform: translate(580px, 140px);
+    }
+    100% {
+        transform: translate(625px, 250px);
+    }
+}
+@keyframes mymove33 {
+    0% {}
+    25% {        
+        transform: translate(-181px, -11px);   
+    }
+    50%{
+        transform: translate(85px, -77px);
+    }
+    75%{
+        transform: translate(355px, 60px);
+    }
+    100% {
+         transform: translate(460px, 260px);
+}
+}
+
+@keyframes mymove34 {
+    0% {}
+    25% {
+    transform: translate(50px, -50px);
+
+    }
+    50%{
+        transform: translate(-245px, -65px);
+    }
+    75%{
+   
+    transform: translate(-462px, 101px);
+
+    }
+    100% {
+    transform: translate(-535px, 255px);
+
+}
+}
+
+
+.about{
+    background-color: red;
+    height:500px;
+}
